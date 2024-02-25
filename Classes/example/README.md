@@ -1,5 +1,5 @@
-|[< Previous (Magic Methods)](../magicmethod.md) | [Intermediate Python](../../README.md)| [Next (Home) >](../../../README.md) |
-|----|----|----|
+|[< Previous (Magic Methods)](../magicmethod.md) | [Intermediate Python](../../README.md)| [Next (GUI) >](../../GUI/gui.md) |
+|----|----|-----------------------------|
 
 # OOP Example
 
@@ -370,5 +370,5 @@ you'll at least be able to understand the answers on StackOverflow the next time
 
 Stay turned for future topics on the [Intermediate Python](../../README.md) home page!
 
-|[< Previous (Magic Methods)](../magicmethod.md) | [Intermediate Python](../../README.md)| [Next (Home) >](../../../README.md) |
+|[< Previous (Magic Methods)](../magicmethod.md) | [Intermediate Python](../../README.md)| [Next (GUI) >](../../GUI/gui.md)  |
 |----|----|----|

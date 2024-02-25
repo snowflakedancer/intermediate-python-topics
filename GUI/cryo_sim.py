@@ -4,16 +4,16 @@ import numpy as np
 TIME_CONSTANT = 5
 NOISE_LEVEL = 1
 
-class Cyro():
+class Cryo():
     def __init__(self, setpoint = 25):
         self.setpoint = setpoint
         self.temperature = 25
         self._time = time.time()
         self.is_connected = False
 
-    def set_setpoint(self, setpoint):
+    def set_setpoint(self, temperature):
         if self.is_connected:
-            self.setpoint = setpoint
+            self.setpoint = temperature
         self._time = time.time()
 
     def read_temperature(self):
@@ -46,15 +46,9 @@ class Cyro():
 
 
 if __name__ == "__main__":
-    with Cyro() as c:
+    with Cryo() as c:
         c.set_setpoint(50)
         hist = []
-        for _ in range(20):
-            t = c.read_temperature()
-            hist.append(t)
-            time.sleep(1)
-
-        c.set_setpoint(150)
         for _ in range(20):
             t = c.read_temperature()
             hist.append(t)

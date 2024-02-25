@@ -3,14 +3,15 @@ import tkinter as tk
 import tkinter.ttk as ttk
 from tkinter import messagebox
 import threading
-from fake_cryo import Cyro
+from cryo_sim import Cryo
 
-class App(tk.Tk):
-    def __init__(self, cryo: Cyro):
-        super().__init__()
+class CryoGui(tk.Tk):
+    def __init__(self,cryo: Cryo, *args, title="GUI Demo", **kwargs):
+        super().__init__(*args,**kwargs)
 
         self.cryo = cryo
 
+        self.title(title)
         self.resizable(False, False)
         self.protocol("WM_DELETE_WINDOW",self.quit_app)
 
@@ -46,6 +47,6 @@ class App(tk.Tk):
 
 
 if __name__ == "__main__":
-    cryo = Cyro()
-    app = App(cryo)
-    app.mainloop()
+    cryo = Cryo()
+    root = CryoGui(cryo)
+    root.mainloop()
