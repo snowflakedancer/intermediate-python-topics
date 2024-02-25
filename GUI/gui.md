@@ -1,5 +1,5 @@
-| [< Previous (Classes Example)](../Classes/example/README.md) | [Intermediate Python](../../README.md)  | [Next >] |
-|--------------------------------------------------------------|-----------------------------------------|----------|
+| [< Previous (Classes Example)](../Classes/example/README.md) | [Intermediate Python](../README.md)  | [Next >] |
+|--------------------------------------------------------------|--------------------------------------|----------|
 
 # Introduction to tkinter and GUIs
 
@@ -277,5 +277,5 @@ might need to install and use the ```tkmacosx``` version of the same. Create two
 connected and one for disconnected. Modify the ```update_connection``` function to switch between them using ```button.configure()```.
 
 
-| [< Previous (Classes Example)](../Classes/example/README.md) | [Intermediate Python](../../README.md)| [Next >] |
+| [< Previous (Classes Example)](../Classes/example/README.md) | [Intermediate Python](../README.md)| [Next >] |
 |--------------------------------------------------------------|----|----------|
