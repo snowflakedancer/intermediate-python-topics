@@ -26,6 +26,12 @@ This section teaches the basics of classes and OOP in Python.
 4. [Magic Methods](Classes/magicmethod.md)
 5. [In-Depth Example](Classes/example/README.md)
 
+## Getting Advanced
+
+Up for more of a challenge?
+1. [Introduction to GUIs](GUI/gui.md)
+
+
 ## Future Lessons
 
 Keep an eye out for the following topics in the future!
@@ -34,4 +40,3 @@ Keep an eye out for the following topics in the future!
 - Databases
 - Multi-threading and parallelism
 - Communicating with measurement instruments
-- Introduction to creating GUIs
